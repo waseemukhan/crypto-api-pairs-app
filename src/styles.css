@@ -1,0 +1,61 @@
+.container {
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  font:inherit;
+  font-size: 14px;
+  color: #555;
+  width: 100px;
+  overflow: auto;
+  padding: 6px 12px;
+  resize: both;
+  width: 100%;
+  border-radius:4px;
+  cursor: not-allowed;
+}
+
+.chart-container {
+  width: 80%;
+  height: 100%;
+}
+
+/* textarea {
+  height: 100%;
+  width: 100%;
+} */
+
+.textarea {
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  font:inherit;
+  height: auto;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  width: 100px;
+  overflow: auto;
+  padding: 6px 12px;
+  resize: both;
+  width: 100%;
+  border-radius:4px;
+  cursor: not-allowed;
+}
+
+.textStyle{
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
