@@ -1,5 +1,3 @@
-# crypto-api-pairs-app
-crypto-api-pairs-app
 # Crypto api pairs app
 It's basic template for building a ReactJS chart using the 'coinbase' api to retreive data using their REST and Websocket API for real time data. 
 
